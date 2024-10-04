@@ -1,4 +1,10 @@
- Deleting links in the current module.
+
+ <b>Deleting links in the current module.</b>
+ The project was designed in IBM DOORS.<br>
+ Used languages,
+   <ol>
+      <li>DXL = scripting language for automating and customizing tasks in DOORS </li>
+   </ol>
      
         - What kind of links can be deleted?
           - If the object has,

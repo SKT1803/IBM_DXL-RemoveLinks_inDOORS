@@ -59,36 +59,31 @@ DBE dbe2
 
 void assignIn(DB db) {
 
-   string idString = get(dbe1)
-   id = intOf(idString)
-   int linkOpIndex = get(dbe2)
-
-   string linkOp = choices[linkOpIndex]
-
+string idString = get(dbe1)
+id = intOf(idString)
+int linkOpIndex = get(dbe2)
+string linkOp = choices[linkOpIndex]
 
 bool hasIn(Object o){ // checks in-going links
     Link l
     for l in o <-"*" do {
           return true
       }
-   return false
-   }
+     return false
+    }
 
 bool hasOut(Object o){
   Link l
   for l in o ->"*" do {
           return true
      }
-
  return false
-
 }
+
 bool hasBoth(Object o ){
-
-   bool inG = false
-   bool outG = false
+bool inG = false
+bool outG = false
    
-
   LinkRef lnkRef
   for lnkRef in o <- "*" do {
           inG = true
@@ -107,7 +102,6 @@ Object v = o
 Link lnk = null
 string a = null
 
-
   LinkRef lnkRef
   for lnkRef in v <- "*" do {
         string srcMod = fullName source(lnkRef)    
@@ -123,8 +117,7 @@ string a = null
         else {
              cbCheck2 = true
                }
-
-        
+       
      }
 
 }
@@ -219,7 +212,7 @@ void deleteLinks(Module n, int id, string str){
 	                                 deleteLinks(m, idd, "OUT")
                                                 }
                                      }
-                              
+                        
                            
                         }
       }           

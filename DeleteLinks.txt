@@ -2,9 +2,6 @@
 
 
         Developer: Serdar Kemal Topkaya
-         
-        Date: 08.08.2024
-
 
         Deleting links in the current module.
      

@@ -1,6 +1,6 @@
 
- <b>Deleting links in the current module.</b>
- The project was designed in IBM DOORS.<br>
+ <b>Deleting links in the current module.</b><br>
+ The project was designed in IBM DOORS.<br><br>
  Used languages,
    <ol>
       <li>DXL = scripting language for automating and customizing tasks in DOORS </li>
